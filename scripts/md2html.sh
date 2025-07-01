@@ -3,7 +3,7 @@ echo ">> root .md to .html"
 
 list=$(ls -r ./*.md)
 for file in $list ; do
-  date=$(date -r ${file} +%D)
+  date=$(date -r ${file} +%F)
   file=${file:2}
   file=${file%.*}
   echo "$file"

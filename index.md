@@ -1,1 +1,1 @@
-![](./images/header-transparent.png)
+[![](./images/header.png)](https://www.mixcloud.com/recumbentdog/)

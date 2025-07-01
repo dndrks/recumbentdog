@@ -1,1 +1,1 @@
-![](./images/header-hires.png)
+![](./images/header-transparent.png)

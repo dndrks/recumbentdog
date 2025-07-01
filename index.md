@@ -1,0 +1,1 @@
+![](./images/header-hires.png)

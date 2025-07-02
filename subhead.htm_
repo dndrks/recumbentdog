@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Recumbent Dog Radio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
     <link rel="me" href="https://www.mixcloud.com/recumbentdog/">
     <meta name="keywords" content="recumbent dog", "radio">
@@ -14,10 +14,3 @@
     <div style="margin:20px">
 <br/>
 <br/>
-<p><a href="https://www.mixcloud.com/recumbentdog/"><img src="./images/qsl/qsl-transparent.png" alt="" /></a></p>
-<hr/>
-<p class='center'><a href="./liner-notes">liner notes</a></p>
-<p class='center'>updated 250702</p>
-</div>
-</body>
-</html><!doctype html>

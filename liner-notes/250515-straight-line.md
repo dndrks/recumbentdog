@@ -26,21 +26,15 @@ Sonically, this mix has a lot of whirrs, beeps, static, feedback, and guttural s
 
 -R
 
-my playlist : [https://www.mixcloud.com/recumbentdog/straight-line/](https://www.mixcloud.com/recumbentdog/straight-line/)
+[my playlist](https://www.mixcloud.com/recumbentdog/straight-line/)
 
-additional media in order of mention:
-Loose Bones: British Psychedelic Underground 1965-1969 - Two hours from four years of music history, god bless the diggers.
-[https://www.nts.live/shows/loose-bones/episodes/loose-bones-6th-april-2025](https://www.nts.live/shows/loose-bones/episodes/loose-bones-6th-april-2025)
-
-Trapdoor w/ Neil Krug - Between each track is a vintage advertisement or interview, listening to this feels like a documentary.
-[https://www.nts.live/shows/neil-krug/episodes/neil-krug-12th-april-2025](https://www.nts.live/shows/neil-krug/episodes/neil-krug-12th-april-2025)
-
-David Lynch on Leno: [https://youtu.be/ZsJm2HSNPh4?t=55](https://youtu.be/ZsJm2HSNPh4?t=55)
-Shrudd Live: [https://www.youtube.com/watch?v=46lNDbReeAo](https://www.youtube.com/watch?v=46lNDbReeAo)
-
-QSLs: [https://www.flickr.com/photos/myqsl/with/47508153021](https://www.flickr.com/photos/myqsl/with/47508153021)
-
-[https://www.nts.live/shows/horsegirl](https://www.nts.live/shows/horsegirl)  
-[https://www.nts.live/shows/a-scene-in-between](https://www.nts.live/shows/a-scene-in-between)  
-[https://www.nts.live/shows/acid-memories](https://www.nts.live/shows/acid-memories)  
-[https://www.nts.live/shows/janie-jones](https://www.nts.live/shows/janie-jones)  
+additional media in order of mention:  
+- [Loose Bones: British Psychedelic Underground 1965-1969](https://www.nts.live/shows/loose-bones/episodes/loose-bones-6th-april-2025) - Two hours from four years of music history, god bless the diggers.  
+- [Trapdoor w/ Neil Krug](https://www.nts.live/shows/neil-krug/episodes/neil-krug-12th-april-2025) - Between each track is a vintage advertisement or interview, listening to this feels like a documentary.  
+- [David Lynch on Leno](https://youtu.be/ZsJm2HSNPh4?t=55)  
+- [Shrudd Live](https://www.youtube.com/watch?v=46lNDbReeAo)  
+- [QSLs](https://www.flickr.com/photos/myqsl/with/47508153021)  
+- [Horsegirl Sounds](https://www.nts.live/shows/horsegirl)  
+- [A Scene In Between](https://www.nts.live/shows/a-scene-in-between)  
+- [Acid Memories](https://www.nts.live/shows/acid-memories)  
+- [Janie Jones](https://www.nts.live/shows/janie-jones)  

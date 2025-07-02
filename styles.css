@@ -34,7 +34,7 @@
 body {
   background-color: #e4ff82;
   /* max-width: 800px; */
-  max-width: 75%;
+  max-width: 85%;
   color: #000000;
   font-family: "roc-grotesk";
   font-size: 1em;
@@ -56,9 +56,10 @@ h1 {
 hr {
   margin-top: 4em;
   border: none;
-  background-color: #555;
+  background-color: #d1a1e5;
   color: #555;
   height: 1px;
+  width: 75%;
 }
 
 /* hyperlink */
@@ -107,7 +108,8 @@ p.right {
   display: flex;
   column-gap: 20px;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  justify-content: center;
 }
 
 .card {

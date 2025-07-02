@@ -40,7 +40,7 @@ Shrudd Live: [https://www.youtube.com/watch?v=46lNDbReeAo](https://www.youtube.c
 
 QSLs: [https://www.flickr.com/photos/myqsl/with/47508153021](https://www.flickr.com/photos/myqsl/with/47508153021)
 
-[https://www.nts.live/shows/horsegirl](https://www.nts.live/shows/horsegirl)
-[https://www.nts.live/shows/a-scene-in-between](https://www.nts.live/shows/a-scene-in-between)
-[https://www.nts.live/shows/acid-memories](https://www.nts.live/shows/acid-memories)
-[https://www.nts.live/shows/janie-jones](https://www.nts.live/shows/janie-jones)
+[https://www.nts.live/shows/horsegirl](https://www.nts.live/shows/horsegirl)  
+[https://www.nts.live/shows/a-scene-in-between](https://www.nts.live/shows/a-scene-in-between)  
+[https://www.nts.live/shows/acid-memories](https://www.nts.live/shows/acid-memories)  
+[https://www.nts.live/shows/janie-jones](https://www.nts.live/shows/janie-jones)  

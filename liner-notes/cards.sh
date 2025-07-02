@@ -26,7 +26,6 @@ function md2html(){
     # cards
     if [[ "$type" == "card" ]]; then
       local cardholder=$(mktemp cardholder.md)
-      # cat >> $3 <<EOF
       cat >> $cardholder <<EOF
 <div class="card blog-post">
   <h3>$title</h3>
@@ -36,28 +35,37 @@ function md2html(){
   <a href="$url.html">read</a>
 </div>
 EOF
-      cat $cardholder $3 > temp && mv temp $3
+      local indexfile="index.md"
+      cat $cardholder $indexfile > temp && mv temp $indexfile
       rm cardholder.md
       target=$url.html
-      cat $1 > ${target}
+      local prefix="../subhead.htm_"
+      local suffix="../subfoot.htm_"
+      cat "$prefix" > ${target}
       local qt=$(mktemp tmp.md)
       sed -n '8,$p' ${file}.md > tmp.md
       sed -i '' '/./,$!d' tmp.md
       cmark --unsafe tmp.md >> ${target}
-      cat $2 >> ${target}
+      cat "$suffix" >> ${target}
       sed -i '' -e 's#DATE#'$date'#g' ${target}
       echo "   $folder \\\ $file: built :)"
       rm tmp.md
     else
-      target=${file}.html
-      cat $1 > ${target}
-      cmark --unsafe ${file}.md >> ${target}
-      cat $2 >> ${target}
-      sed -i '' -e 's#DATE#'$date'#g' ${target}
-      echo "$folder \\\ $file built"
+      if [[ $file == "index" ]]; then
+        local indexfile="index.md"
+        local prefix="cardhead.htm_"
+        local suffix="cardfoot.htm_"
+        target=${file}.html
+        cat $prefix > ${target}
+        cmark --unsafe ${file}.md >> ${target}
+        cat $suffix >> ${target}
+        sed -i '' -e 's#DATE#'$date'#g' ${target}
+        echo -e '## liner notes\n' | cat - $indexfile > temp && mv temp $indexfile
+        echo "$folder \\\ $file built"
+      else
+        echo "$file is not index.md, not built"
+      fi
     fi
   done
 }
-md2html "cardhead.htm_" "cardfoot.htm_" "index.md"
-
-echo -e '## liner notes\n' | cat - "index.md" > temp && mv temp "index.md"
+md2html

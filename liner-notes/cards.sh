@@ -28,10 +28,12 @@ function md2html(){
       local cardholder=$(mktemp cardholder.md)
       cat >> $cardholder <<EOF
 <div class="card blog-post">
+  <div class="card pubdate">
+    <p>$published</p>
+  </div>
   <h3>$title</h3>
   <img src="$image"/>
   <p>$summary</p>
-  <p>$published</p>
   <a href="$url.html">read</a>
 </div>
 EOF

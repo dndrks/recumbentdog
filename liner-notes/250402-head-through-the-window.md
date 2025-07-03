@@ -47,8 +47,8 @@ additional listening in order of mention
 [Ryan](https://on.soundcloud.com/t8q3m8eo4dw219Un9)  
 [Vladimir](https://on.soundcloud.com/mKzkB8T35r5RrCgLA)
 
-[https://www.nts.live/shows/loose-bones](https://www.nts.live/shows/loose-bones)  
-[https://www.nts.live/shows/brown-acid-journey](https://www.nts.live/shows/brown-acid-journey)  
-[https://www.nts.live/shows/hotmess](https://www.nts.live/shows/hotmess)  
-[https://www.nts.live/shows/carolinasoul](https://www.nts.live/shows/carolinasoul)  
-[https://www.nts.live/shows/ARRHYTHMIA/episodes/arrhythmia-1st-april-2025](https://www.nts.live/shows/ARRHYTHMIA/episodes/arrhythmia-1st-april-2025)
+[Loose Bones](https://www.nts.live/shows/loose-bones)  
+[Brown Acid Trippin](https://www.nts.live/shows/brown-acid-journey)  
+[Hot Mess](https://www.nts.live/shows/hotmess)  
+[Carolina Soul](https://www.nts.live/shows/carolinasoul)  
+[Arrhythmia's April 2025 show](https://www.nts.live/shows/ARRHYTHMIA/episodes/arrhythmia-1st-april-2025)

@@ -10,6 +10,13 @@
     <meta name="keywords" content="recumbent dog", "radio">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<div class="topnav">
+  <div id="headLinks">
+    <a href="../index.html">home</a>
+    <a href="https://www.mixcloud.com/recumbentdog/">mixes</a>
+    <a href="">liner notes</a>
+  </div>
+</div>
 <body>
     <div style="margin:20px">
 <br/>

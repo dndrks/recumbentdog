@@ -166,3 +166,38 @@ p.right {
     min-width: 200px;
   }
 }
+/* nav menu: */
+.topnav {
+  overflow: hidden;
+  /* background-color: #9D82FF; */
+  background: #D1A1E5;
+  background: linear-gradient(90deg, rgba(209, 161, 229, 1) 0%, rgba(157, 130, 255, 1) 50%, rgba(228, 255, 130, 1) 100%);
+  position: relative;
+  /* width: 450px; */
+}
+
+.topnav #headLinks {
+  display: block;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+.topnav a:hover {
+  background-color: #b6ed86;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}

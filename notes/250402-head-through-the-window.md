@@ -2,11 +2,11 @@
 type: card
 title: head through the window
 url: head-through-the-window
-image: "../images/liner-notes/head-through-the-window.png"
+image: "../images/notes/head-through-the-window.png"
 summary: Dirtbags are back, throwing back a couple of beers on a weeknight is back, groceries are getting more expensive but cigarettes are staying the same price.
 ---
 
-![](../images/liner-notes/head-through-the-window.png)
+![](../images/notes/head-through-the-window.png)
 
 ## From the Dog’s Desk
 

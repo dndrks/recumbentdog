@@ -1,42 +1,9 @@
-@import url("https://p.typekit.net/p.css?s=1&k=htb5oko&ht=tk&f=41078.41098.41109.41110.41111.41112&a=224479136&app=typekit&e=css");
-
-@font-face {
-  font-family: "roc-grotesk";
-  src: url("https://use.typekit.net/af/ac1e87/00000000000000007735b7cc/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/ac1e87/00000000000000007735b7cc/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/ac1e87/00000000000000007735b7cc/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 300;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "roc-grotesk";
-  src: url("https://use.typekit.net/af/7c2f37/00000000000000007735b7c0/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff2"), url("https://use.typekit.net/af/7c2f37/00000000000000007735b7c0/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("woff"), url("https://use.typekit.net/af/7c2f37/00000000000000007735b7c0/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n6&v=3") format("opentype");
-  font-display: auto;
-  font-style: bold;
-  font-weight: 600;
-  font-stretch: normal;
-}
-
-@font-face {
-  font-family: "roc-grotesk";
-  src: url("https://use.typekit.net/af/b69e26/00000000000000007735b7c5/31/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"), url("https://use.typekit.net/af/b69e26/00000000000000007735b7c5/31/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"), url("https://use.typekit.net/af/b69e26/00000000000000007735b7c5/31/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
-  font-display: auto;
-  font-style: italic;
-  font-weight: 200;
-  font-stretch: normal;
-}
-
-.tk-roc-grotesk {
-  font-family: "roc-grotesk", sans-serif;
-}
-
 body {
-  background-color: #e4ff82;
+  background-color: white;
   /* max-width: 800px; */
   max-width: 85%;
   color: #000000;
-  font-family: "roc-grotesk";
+  font-family: "Times New Roman", Times, serif;
   font-size: 1em;
   margin: 40px auto;
   padding: 0 10px;
@@ -60,16 +27,6 @@ hr {
   color: #555;
   height: 1px;
   width: 75%;
-}
-
-/* hyperlink */
-a {
-  color: #bc16c4;
-}
-
-/* hyperlink (hover) */
-a:hover {
-  color: #3c92d8;
 }
 
 img {
@@ -108,7 +65,6 @@ p.right {
   display: flex;
   column-gap: 20px;
   flex-wrap: wrap;
-  /* justify-content: space-evenly; */
   justify-content: center;
 }
 
@@ -120,9 +76,7 @@ p.right {
     display: flex;
     flex-direction: column;
     padding: 20px;
-    background: #eee;
-    box-shadow: 0 0 5px #cdcdcd;
-    margin-bottom: 20px;
+    margin-bottom: -10%;
   }
 
   img {
@@ -151,32 +105,14 @@ p.right {
       margin-top: 0px;
       margin-bottom: 5px;
       font-size: 0.8em;
-      opacity: 0.5;
     }
   }
 
-  a {
-    background: #adbff3;
-    color: #000000;
-    padding: 10px 15px;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 20px;
-    margin-top: 400px;
-    align-self: center;
-    position: absolute;
-    max-width: 300px;
-    min-width: 200px;
-  }
 }
 /* nav menu: */
 .topnav {
   overflow: hidden;
-  /* background-color: #9D82FF; */
-  background: #D1A1E5;
-  background: linear-gradient(90deg, rgba(209, 161, 229, 1) 0%, rgba(157, 130, 255, 1) 50%, rgba(228, 255, 130, 1) 100%);
   position: relative;
-  /* width: 450px; */
 }
 
 .topnav #headLinks {
@@ -185,7 +121,7 @@ p.right {
 
 .topnav a {
   float: left;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -196,8 +132,8 @@ p.right {
 }
 
 .topnav a:hover {
-  background-color: #b6ed86;
-  color: black;
+  /* color: black; */
+  text-decoration: underline;
 }
 
 .active {

@@ -22,7 +22,7 @@ function md2html(){
     url=$(echo "$yaml" | grep '^url:' | cut -d: -f2- | xargs)
     image=$(echo "$yaml" | grep '^image:' | cut -d: -f2- | xargs)
     summary=$(echo "$yaml" | grep '^summary:' | cut -d: -f2- | xargs)
-    published='20'${mdfile:0:2}'-'${mdfile:2:2}'-'${mdfile:4:2}
+    published='20'${mdfile:0:2}'.'${mdfile:2:2}'.'${mdfile:4:2}
     # cards
     if [[ "$type" == "card" ]]; then
       local cardholder=$(mktemp cardholder.md)
@@ -31,10 +31,9 @@ function md2html(){
   <div class="card pubdate">
     <p>$published</p>
   </div>
-  <h3>$title</h3>
+  <h3><a href="$url.html">$title</a></h3>
   <img src="$image"/>
   <p>$summary</p>
-  <a href="$url.html">read</a>
 </div>
 EOF
       local indexfile="index.md"

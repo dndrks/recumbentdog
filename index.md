@@ -1,1 +1,1 @@
-![](./images/qsl/qsl-transparent.png)
+![](./images/qsl/qsl-no-address.png)

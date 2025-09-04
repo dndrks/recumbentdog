@@ -34,6 +34,7 @@ function md2html(){
   <h3><a href="$url.html">$title</a></h3>
   <img src="$image"/>
   <p>$summary</p>
+  <a href="$url.html"><button class="button"><span>read</span></button></a>
 </div>
 EOF
       local indexfile="index.md"

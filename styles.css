@@ -65,38 +65,16 @@ p.right {
   display: inline-block;
   border: 0.1em black solid;
   color: black;
+  background-color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
   text-align: center;
   text-decoration: none;
-  padding: 6px 10px;
-  width: 100px;
+  padding: 4px 10px;
+  width: 75px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 4px 2px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.3s;
-}
-
-.button span:after {
-  content: '\2192';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.3s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
 }
 
 .card_holder {
@@ -129,12 +107,11 @@ p.right {
   h3 {
     margin-top: 20px;
     margin-bottom: -10px;
-    /* text-transform: capitalize; */
   }
 
   p {
     opacity: 0.8;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
   }
 
   .pubdate {

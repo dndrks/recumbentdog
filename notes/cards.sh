@@ -31,7 +31,7 @@ function md2html(){
   <div class="card pubdate">
     <p>$published</p>
   </div>
-  <h3><a href="$url.html">$title</a></h3>
+  <h3>$title</h3>
   <img src="$image"/>
   <p>$summary</p>
   <a href="$url.html"><button class="button"><span>read</span></button></a>
